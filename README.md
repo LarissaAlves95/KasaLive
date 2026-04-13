@@ -71,7 +71,7 @@ cypress/
 
 ```bash
 # Clone o repositório
-git clone https://github.com/seu-usuario/automacao_kasalive.git
+git clone https://github.com/LarissaAlves95/automacao_kasalive.git
 
 # Acesse a pasta do projeto
 cd automacao_kasalive
