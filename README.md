@@ -139,22 +139,6 @@ Este projeto está integrado com um servidor MCP, permitindo que testes sejam li
 ### Configuração do servidor MCP
 
 O servidor MCP está localizado em `tools/` na raiz do projeto. Para habilitá-lo, configure o arquivo de integração da sua IA apontando para o servidor local do projeto.
-
----
-
-## 🔐 Variáveis de Ambiente
-
-As credenciais e configurações sensíveis são gerenciadas via `cypress.env.json` (não versionado). Crie o arquivo na raiz do projeto:
-
-```json
-{
-  "email": "seu-email@exemplo.com",
-  "senha": "sua-senha"
-}
-```
-
-> ⚠️ **Nunca suba o `cypress.env.json` para o repositório.** Certifique-se de que está no `.gitignore`.
-
 ---
 
 ## 📌 Boas Práticas Adotadas
